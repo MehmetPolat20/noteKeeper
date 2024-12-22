@@ -1,6 +1,6 @@
 # Note App
 
-This project is a notepad application developed with JavaScript. Users can add, edit, and delete notes. Notes are stored in the browser using **localStorage**.
+This project is a notepad application developed using JavaScript. Users can easily add, edit, and delete notes with a title and description. Notes are stored in the browser using localStorage, allowing them to persist even after the browser is closed. The app provides a simple, user-friendly interface and includes a confirmation prompt before deleting notes. It is also designed to be responsive, ensuring a smooth experience on both mobile and desktop devices.
 
 ## Features
 
