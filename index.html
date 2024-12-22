@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Note Keeper</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="popup-box">
+      <div class="popup">
+        <div class="content">
+          <header>
+            <p>Add Note</p>
+            <i class="bx bx-x"></i>
+          </header>
+          <form>
+            <div class="row title">
+              <label>Title</label>
+              <input type="text" />
+            </div>
+            <div class="row description">
+              <label>Description</label>
+              <textarea></textarea>
+            </div>
+            <button type="submit">Add Note</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper">
+      <li class="add-box">
+        <div class="icon">
+          <i class="bx bx-plus"></i>
+        </div>
+        <p>Add New Note</p>
+      </li>
+
+      <li class="note">
+        <div class="details">
+          <p>Note Title</p>
+          <span>Note Description</span>
+        </div>
+        <div class="bottom-content">
+          <span>Date</span>
+          <div class="settings">
+            <i class="bx bx-dots-horizontal-rounded"></i>
+            <ul class="menu">
+              <li><i class="bx bx-edit"></i>Edit</li>
+              <li><i class="bx bx-trash"></i>Delete</li>
+            </ul>
+          </div>
+        </div>
+      </li>
+
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
