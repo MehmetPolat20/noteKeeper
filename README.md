@@ -17,6 +17,13 @@ This project is a notepad application developed using JavaScript. Users can easi
 - **JavaScript** - The functionality of the application.
 
 ## Preview 
+![NoteKeeper-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/bbb7bfe3-cd37-4dc5-819e-b133c05f5ebc)
+
+
+
+
+
+
 ## For your questions and suggestions
 <a href="mailto:mehmet.polat2035@gmail.com" target="_blank" style="text-decoration: none;">
     <img src="https://img.shields.io/badge/Gmail-D14836.svg?style=for-the-badge&logo=Gmail&logoColor=white" alt="Gmail">
