@@ -68,8 +68,8 @@ form.addEventListener("submit", (e) => {
 
     popupBoxContainer.classList.remove("show");
     popupBox.classList.remove("show");
-    popupTitle.textContent = "Not Ekle";
-    button.textContent = "Not Ekle";
+    popupTitle.textContent = "Add Note";
+    button.textContent = "Add Note";
 
     document.querySelector("body").style.overflow = "auto";
   }
@@ -79,7 +79,7 @@ form.addEventListener("submit", (e) => {
 });
 
 function deleteNote(noteId) {
-  if (confirm("Silmek istediğinizden emin misiniz?")) {
+  if (confirm("Are you sure you want to delete this?")) {
     notes.splice(noteId, 1);
     localStorage.setItem("notes", JSON.stringify(notes));
     showNotes();
@@ -91,8 +91,8 @@ function updateNote(noteId, title, description) {
   updateId = noteId;
   popupBoxContainer.classList.add("show");
   popupBox.classList.add("show");
-  popupTitle.textContent = "Notu Güncelle";
-  button.textContent = "Notu Güncelle";
+  popupTitle.textContent = "Update Note";
+  button.textContent = "Update Note";
   form.elements[0].value = title;
   form.elements[1].value = description;
 }
@@ -121,8 +121,8 @@ function showNotes() {
           <div class="settings">
             <i class="bx bx-dots-horizontal-rounded"></i>
             <ul class="menu">
-              <li onclick = 'updateNote(${id}, "${note.title}", "${note.description}")'><i class="bx bx-edit"></i>Düzenle</li>
-              <li onclick = 'deleteNote(${id})'><i class="bx bx-trash"></i>Sil</li>
+              <li onclick = 'updateNote(${id}, "${note.title}", "${note.description}")'><i class="bx bx-edit"></i>Edit</li>
+              <li onclick = 'deleteNote(${id})'><i class="bx bx-trash"></i>Delete</li>
             </ul>
           </div>
         </div>
